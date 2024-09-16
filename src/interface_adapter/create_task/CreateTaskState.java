@@ -5,20 +5,6 @@ public class CreateTaskState{
 
     private String taskError = null;
 
-    private String project = "";
-
-    private String projectError = null;
-
-    /**
-     * @param copy initalizes a copy of the create task in order to use the state without messing it.
-     */
-    public CreateTaskState(CreateTaskState copy){
-        task = copy.task;
-        taskError = copy.taskError;
-        project = copy.project;
-        projectError = copy.projectError;
-    }
-
     /**
      * constructs the create task state with no given stat
      */
